@@ -22,10 +22,9 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
+![](images/FireShot-Capture-002.png)
+![](images/FireShot-Capture-003.png)
 
-Desktop(images/FireShot-Capture-002.png)
-
-Mobile(images/FireShot-Capture-003.png)
 
 
 
