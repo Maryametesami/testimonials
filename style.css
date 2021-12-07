@@ -8,7 +8,10 @@ body{
     grid-template-rows: 1fr 1fr;
     gap: 20px;
     font-family: Barlow Semi Condensed;
-    margin:100px;
+    margin:100px auto;
+    max-width: 1500px;
+    min-width:200px;
+    
 }
 #item-1{
     grid-column: 1/3;
@@ -57,7 +60,7 @@ body{
 }
 .toppack h6{
     color:rgba(250,250,250,0.5);
-    margin: 0;
+    margin: 2px 0;
 }
 .toptext{
     font-size: 20px;
@@ -81,15 +84,18 @@ body{
 .items{
     padding:30px;
     border-radius: 8px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
 }
 p{
     padding: 0;
     margin: 0;
 }
-@media (max-width:768px){
+@media (max-width:991px){
     .grid-container{
         display: block;
         margin:10px;
+        padding:10px 0;
+        
     }
     #item-1{
         grid-column: 1/2;
